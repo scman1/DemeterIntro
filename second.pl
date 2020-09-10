@@ -1,0 +1,2 @@
+use Win32 qw(CSIDL_APPDATA);
+print Win32::GetFolderPath(CSIDL_DESKTOPDIRECTORY);
