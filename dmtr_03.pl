@@ -1,6 +1,13 @@
 #!/usr/bin/perl
 use Demeter;
 
+# code snippet from https://bruceravel.github.io/demeter/documents/DPG/data/mue.html
+
+# Example setting parameters (e.g. for normalization, background removal, and
+# Fourier transforms) as attributes of the Data object.
+# In this example, several basic data processing parameters are set using the 
+# set method.
+
 my $data = Demeter::Data -> new(file => "data/fe.060.xmu",
                                 name => 'Fe 60K',
                                );
