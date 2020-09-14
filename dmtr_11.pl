@@ -8,7 +8,7 @@
 # multiple columns of data that can be independently processed as μ(E) data. 
 
 # This example shows the use of the Data::MultiChannel object to import the reference channel
-# from a normal XAS data file. Here is an example:
+# from an XAS data file:
 
 #my $file = 'data/Fe_pyrite.000';
 my $mc = Demeter::Data::MultiChannel->new(file => 'data/Fe_pyrite.000', energy => '$1', );
