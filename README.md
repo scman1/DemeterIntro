@@ -7,3 +7,7 @@ This project uses Demeter 9.25 with Strawberry Perl(32). The latest 64bit versio
 
 To execute the scripts it is required to run command as an administrator. Otherwise, you will get an error message
 
+| Issue                            | Cause                                      | Checked on|
+| -------------                    |-------------                               | -----     |
+| Cannot run Demeter 0.9.26 (64)   | Perl fails loading IFFEFIT dll             | 20200910  |
+| Cannot run last plotting example | Issues with Term::Twiddle and Time::HiRes  | 20200914  |
