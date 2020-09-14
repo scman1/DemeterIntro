@@ -1,6 +1,7 @@
  #!/usr/bin/perl
  use Demeter;
-# code snippet from https://bruceravel.github.io/demeter/documents/DPG/data/athena.html
+# Example derived from code published at:
+#   https://bruceravel.github.io/demeter/documents/DPG/data/athena.html
 
 # Example importing data from athena project file(file_name.prj)
 

@@ -2,7 +2,8 @@
  use Demeter;
  use Demeter::Data::MultiChannel;
 
-# code snippet from https://bruceravel.github.io/demeter/documents/DPG/data/mc.html
+# Example derived from code published at:
+#   https://bruceravel.github.io/demeter/documents/DPG/data/mc.html
 
 # Multi-channel data objects can be used to import data from files that contain 
 # multiple columns of data that can be independently processed as μ(E) data. 

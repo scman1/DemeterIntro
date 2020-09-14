@@ -1,7 +1,8 @@
 #!/usr/bin/perl
 use Demeter;
 
-# code snippet from https://bruceravel.github.io/demeter/documents/DPG/data/columns.html
+# Example derived from code published at:
+#   https://bruceravel.github.io/demeter/documents/DPG/data/columns.html
 
 # Example importing column data (XAS data)
 # DEMETER assumes that your data are in columns, that one of the columns 

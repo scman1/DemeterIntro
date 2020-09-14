@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
-# code snippet from https://bruceravel.github.io/demeter/documents/DPG/data/mue.html
+# Example derived from code published at:
+#   https://bruceravel.github.io/demeter/documents/DPG/data/mue.html
 
 # First example of importing a Mu(e) data file and plotting it
 

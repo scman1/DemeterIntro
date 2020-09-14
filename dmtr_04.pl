@@ -1,7 +1,8 @@
 #!/usr/bin/perl
 use Demeter;
 
-# code snippet from https://bruceravel.github.io/demeter/documents/DPG/data/mue.html
+# Example derived from code published at:
+#   https://bruceravel.github.io/demeter/documents/DPG/data/mue.html
 
 # Example setting parameters(e.g. for normalization, background removal, and
 # Fourier transforms) at the time of object creation.

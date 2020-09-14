@@ -2,7 +2,8 @@
  use Demeter;
  use Demeter::Plugins::X15B;
 
-# code snippet from https://bruceravel.github.io/demeter/documents/DPG/data/special.html
+# Example derived from code published at:
+#   https://bruceravel.github.io/demeter/documents/DPG/data/special.html
 
 # To handle data from beamlines that write out data in a formats that IFEFFIT
 # is not capable of reading without help.
@@ -13,6 +14,9 @@
 # The code below shows reading data from the X15B beamline at NSLS which used 
 # an antiquated data acquisition.
 
+# Existing plugins for other beamlines are listed at:
+#   https://bruceravel.github.io/demeter/documents/DPG/data/special.html
+
  my $filetype = Demeter::Plugins::X15B->new(file=>'data/s_x15b.dat');
  if ($filetype->is) {
      my $converted = $filetype->fix;
@@ -21,3 +25,5 @@
                                   );
 	 $data -> plot('E');	 
  };
+ 
+ 

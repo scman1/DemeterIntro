@@ -1,7 +1,8 @@
 #!/usr/bin/perl
 use Demeter;
 
-# code snippet from https://bruceravel.github.io/demeter/documents/DPG/data/chi.html
+# Example derived from code published at:
+#   https://bruceravel.github.io/demeter/documents/DPG/data/chi.html
 
 # Example importing chi(k) data 
 
