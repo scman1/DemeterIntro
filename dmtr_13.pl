@@ -24,6 +24,7 @@
                                    $filetype -> suggest("fluorescence")
                                   );
 	 $data -> plot('E');	 
+	 sleep 5;
  };
  
  

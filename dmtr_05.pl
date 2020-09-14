@@ -11,3 +11,4 @@ my $data = Demeter::Data -> new(file      => "data/cu10k.chi",
                                 fft_kmin  => 3,    fft_kmax  => 14,
                                );
 $data -> plot('k');
+sleep 5;

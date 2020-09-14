@@ -26,7 +26,7 @@ $data[1] = $mc->make_data(numerator   => '$2', denominator => '$4',
                         ln          => 1,    name        => '  Ref Fe pyrite' );
 # plot the array  
 $_ -> plot('E') foreach @data;
-
+sleep 5;
 
 my $prjname = basename($file) . '.prj';
 print "exporting $prjname ... ";

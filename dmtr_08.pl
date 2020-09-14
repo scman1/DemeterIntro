@@ -17,4 +17,5 @@
 
 my $prj = Demeter::Data::Prj -> new(file=>'data/Fe_standards.prj');
 my @several = $prj -> records(1, 3, 5, 9);
-$_ -> plot('E') foreach @several
+$_ -> plot('E') foreach @several;
+sleep 5;

@@ -16,6 +16,7 @@
 my $prj = Demeter::Data::Prj -> new(file=>'data/Fe_standards.prj');
 my @all = $prj -> slurp;
 $_ -> plot('E') foreach @all;
+sleep 5;
 
 # You can query an ATHENA project file for its content in several ways.
 # To obtain a listing of contents of the project file, use the list method.

@@ -21,4 +21,6 @@ my $ref  = $mc->make_data(numerator   => '$2', denominator => '$4',
  
 
 $data -> plot('E');
-$ref -> plot('E')
+sleep 5;
+$ref -> plot('E');
+sleep 5;

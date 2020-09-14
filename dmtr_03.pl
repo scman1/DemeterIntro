@@ -18,3 +18,4 @@ $data -> set(bkg_rbkg    => 1.5,
              fft_kmax    => 3,    fft_kmin    => 17,
             );
 $data -> plot('E');
+sleep 5;

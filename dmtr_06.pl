@@ -19,3 +19,4 @@ use Demeter;
               ln          => 1,    # these are transmission data
              );
  $data -> plot('E');
+ sleep 5;

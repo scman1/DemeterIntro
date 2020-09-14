@@ -16,3 +16,4 @@
 my $prj = Demeter::Data::Prj -> new(file=>'data/Fe_standards.prj');
 my @all = $prj -> slurp;
 $_ -> plot('E') foreach @all;
+sleep 5;

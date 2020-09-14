@@ -18,3 +18,4 @@ my $prj = Demeter::Data::Prj -> new(file=>'data/Fe_standards.prj');
 my $data = $prj -> record(1);
 
 $data -> plot('E');
+sleep 5;

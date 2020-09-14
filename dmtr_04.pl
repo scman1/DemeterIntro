@@ -16,3 +16,4 @@ my $data = Demeter::Data -> new(file => "data/fe.060.xmu",
                                 fft_kmax => 3,    fft_kmin => 17,
                                );
 $data -> plot('E');
+sleep 5;
