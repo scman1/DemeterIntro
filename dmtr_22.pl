@@ -14,9 +14,10 @@ my $d0 = Demeter::Data -> new(file        => "data/fe.060",
                               denominator => q{$3});
 # the following two lines are added to prevent plotting background
 # look at https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html
-my @eplot = (e_bkg     => 0);
-$d0 -> po -> set(@eplot);
-
+#my @eplot = (e_bkg => 0);
+#$d0 -> po -> set(@eplot);
+#alternative to creating a plot object, above
+$d0 -> po -> set(e_bkg => 0);
 $d0 -> plot('E');
 sleep 5;
 
