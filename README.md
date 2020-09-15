@@ -20,12 +20,13 @@ dmtr_12.pl | 2.5.3. Multicolumn transmission data|None|Fe_pyrite.000
 dmtr_13.pl| 2.6.1. Filetype plugins         | file_from_x15b.001 | s_x15b.dat
 dmtr_14.pl| 2.8.1 Types of plots            | None               | fe.060.xmu
 dmtr_15.pl| 2.8.2 Plotting and overplotting | cu10k.chi      |  
-dmtr_16.pl| 2.8.3 Plotting and overplotting | iron_data.prj      | Fe_standards.prj 
-dmtr_17.pl| Aligning Data   | U_DNA.prj    | Fe_standards.prj 
-dmtr_18.pl| Aligning Data   | U_DNA.prj    | Fe_standards.prj 
+dmtr_16.pl| 2.8.3. The singlefile plotting backend | iron_data.prj      | Fe_standards.prj 
+dmtr_17.pl| 3.1. Aligning Data   | U_DNA.prj    | Fe_standards.prj 
+dmtr_18.pl| 3.1. Aligning Data   | U_DNA.prj    | Fe_standards.prj 
+dmtr_19.pl| 3.2.1. Plot merged data with standard deviation   | U_DNA.prj|cyanobacteria.prj 
+dmtr_20.pl| 3.2.1. Plot merged data with variance  | U_DNA.prj|cyanobacteria.prj 
 
-
-## Note
+## Notes and Issues
 
 This project uses Demeter 9.25 with Strawberry Perl(32). The latest 64bit version and earlier 64bit versions throw a compilation error when adding a dll. This is latest version which works with windows 10 and the command line.
 
@@ -34,7 +35,7 @@ To execute the scripts it is required to run command as an administrator. Otherw
 | Issue                            | Cause                                      | Checked on|
 | -------------                    |-------------                               | -----     |
 | Cannot run Demeter 0.9.26 (64)   | Perl fails loading IFFEFIT dll             | 20200910  |
-| Cannot run last plotting example | Issues with Term::Twiddle and Time::HiRes  | 20200914  |
+| Cannot run last plotting example (2.8.3) | Issues with Term::Twiddle and Time::HiRes  | 20200914  |
 
 
 
