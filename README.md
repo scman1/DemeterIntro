@@ -3,9 +3,9 @@
 
 
 List of scripts and the examples they come from
-Script     | Example                   | File       | Replacement file
+Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
-dmtr_01.pl | 2. The basics of data processing  
+dmtr_01.pl | 2. The basics of data processing |None| 
 dmtr_02.pl | 2.1. μ(E) data files      | fe.060.dat |
 dmtr_03.pl | 2.1. μ(E) data files      | fe.060.dat |
 dmtr_04.pl | 2.1.1. Setting attributes | fe.060.dat |
@@ -22,6 +22,7 @@ dmtr_14.pl| 2.8.1 Types of plots            | None               | fe.060.xmu
 dmtr_15.pl| 2.8.2 Plotting and overplotting | cu10k.chi      |  
 dmtr_16.pl| 2.8.3 Plotting and overplotting | iron_data.prj      | Fe_standards.prj 
 dmtr_17.pl| Aligning Data   | U_DNA.prj    | Fe_standards.prj 
+dmtr_18.pl| Aligning Data   | U_DNA.prj    | Fe_standards.prj 
 
 
 ## Note
