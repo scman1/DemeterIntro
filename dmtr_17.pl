@@ -2,7 +2,7 @@
 use Demeter;
 
 # Example derived from code published at:
-#   https://bruceravel.github.io/demeter/documents/DPG/data/plot.html
+#   https://bruceravel.github.io/demeter/documents/DPG/mue/align.html
 
 # The example shows the alignment of data.
 

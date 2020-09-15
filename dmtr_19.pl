@@ -14,7 +14,7 @@ my $prj = Demeter::Data::Prj -> new(file=>'data/cyanobacteria.prj');
 my @data = $prj -> records(9,10,11);
    
 my $merged = $data[0] -> merge('e', @data);
-
+$merged -> name("Au merge");
 # The standard deviation is added to and subtracted from the μ(E) spectrum, so
 # the red trace is an error margin for the μ(E) spectrum. 
 # Note that this plot type can only be plotted using a Data object which 
