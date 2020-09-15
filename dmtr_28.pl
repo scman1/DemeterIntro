@@ -4,8 +4,8 @@ use Demeter;
 # Example derived from code published at:
 #   https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html
 
-#DEMETER offers an easy way to plot μ(E) data with the E0 value subtracted. This
-# places the edge at 0 on the x-axis, allowing you to overplot data from
+# DEMETER offers an easy way to plot μ(E) data with the E0 value subtracted. 
+# This places the edge at 0 on the x-axis, allowing you to overplot data from
 # different edges. When the e_zero attribute of the Plot object is set to 1, 
 # each Data object's bkg_eshift attribute is temporarily set so that the edge 
 # will show up at 0 in the plot.

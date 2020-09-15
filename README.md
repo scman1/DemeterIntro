@@ -33,6 +33,9 @@ dmtr_25.pl| 4.4.1.3. Flattened data & background | fe.060 |
 dmtr_26.pl| 4.4.1.4. Derivative of mu | fe.060 |
 dmtr_27.pl| 4.4.1.5. Data, I0 channel, & signal channel | fe.060 |
 dmtr_28.pl| 4.4.1.6. Data at two different edges with E0 subtracted | fe.060.xmu, cu010k.dat |
+dmtr_29.pl| 4.4.2.1. Plotting in k-space | cyanobacteria.prj  |
+dmtr_30.pl| 4.4.2.2. Plotting in chi(k) in energy | fe.060  |
+dmtr_31.pl| 4.4.2.3. k-space with all three k-weights | cyanobacteria.prj  |
 
 ## Notes and Issues
 
