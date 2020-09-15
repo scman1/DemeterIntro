@@ -4,7 +4,8 @@
 
 List of scripts and the examples they come from
 Script     | Example                   | File       | Replacement file
--------    | -------------             |------------- | -----    
+-------    | -------------             |------------- | -----  
+dmtr_01.pl | 2. The basics of data processing  
 dmtr_02.pl | 2.1. μ(E) data files      | fe.060.dat |
 dmtr_03.pl | 2.1. μ(E) data files      | fe.060.dat |
 dmtr_04.pl | 2.1.1. Setting attributes | fe.060.dat |
