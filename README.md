@@ -25,14 +25,23 @@ dmtr_17.pl| 3.1. Aligning Data   | U_DNA.prj    | Fe_standards.prj
 dmtr_18.pl| 3.1. Aligning Data   | U_DNA.prj    | Fe_standards.prj 
 dmtr_19.pl| 3.2.1. Plot merged data with standard deviation   | U_DNA.prj|cyanobacteria.prj 
 dmtr_20.pl| 3.2.1. Plot merged data with variance  | U_DNA.prj|cyanobacteria.prj 
-dmtr_20.pl| 3.3. DEgritching data | uhup.003 |
-
+dmtr_21.pl| 3.3. Deglitching data | uhup.003 |
+dmtr_22.pl| 3.4. Truncating data | fe.060 |
+dmtr_23.pl| 4.4.1.1. Data, background, pre-edge, & post-edge | fe.060 |
+dmtr_24.pl| 4.4.1.2. Normalized data & background | fe.060 |
+dmtr_25.pl| 4.4.1.3. Flattened data & background | fe.060 |
+dmtr_26.pl| 4.4.1.4. Derivative of mu | fe.060 |
+dmtr_27.pl| 4.4.1.5. Data, I0 channel, & signal channel | fe.060 |
+dmtr_28.pl| 4.4.1.6. Data at two different edges with E0 subtracted | fe.060.xmu, cu010k.dat |
 
 ## Notes and Issues
 
 This project uses Demeter 0.9.25 with Strawberry Perl(32). The latest 64bit version and earlier 64bit versions throw a compilation error when adding a dll. This is latest version which works with windows 10 and the command line.
 
 To execute the scripts it is required to run command as an administrator. Otherwise, you will get an error message
+
+Processing sections 3.5 to 3.10 are missing (marked as todo)
+
 
 | Issue                            | Cause                                      | Checked on|
 | -------------                    |-------------                               | -----     |
