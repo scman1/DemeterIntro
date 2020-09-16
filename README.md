@@ -174,6 +174,12 @@ Script     | Example                   | File         | File used
 dmtr_36.pl | 4.4.4.1. Plotting in back-transform k-space | | cyanobacteria.prj   
 dmtr_37.pl | 4.4.4.2. k-space & the real part of back-transform k-space |  |cyanobacteria.prj   
 
+## XANES data
+
+Script     | Example                   | File         | File used
+-------    | -------------             |------------- | -----  
+dmtr_38.pl | [Linear combination fitting](https://bruceravel.github.io/demeter/documents/DPG/xanes/lcf.html) | cyanobacteria.prj | cyanobacteria.prj   
+
 ## Notes and Issues
 
 This project uses Demeter 0.9.25 with Strawberry Perl(32). The latest 64bit version and earlier 64bit versions throw a compilation error when adding a dll. This is latest version which works with windows 10 and the command line.
