@@ -8,5 +8,5 @@ use Demeter;
 # of a feff.inp file.
 
 my $feff = Demeter::Feff -> new(file => "data/feff.inp");
-$feff->set(workspace=>"feff/", screen=>0);
+$feff->set(workspace=>"data/feff/", screen=>0);
 	

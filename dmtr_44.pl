@@ -10,4 +10,4 @@ use Demeter;
 
 my $atoms = Demeter::Atoms -> new(file => 'data/atoms.inp');
 my $feff = Demeter::Feff -> new(atoms => $atoms);
-$feff->set(workspace=>"feff/", screen=>0);
+$feff->set(workspace=>"data/feff/", screen=>0);
