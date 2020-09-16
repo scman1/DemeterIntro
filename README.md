@@ -179,8 +179,15 @@ dmtr_37.pl | 4.4.4.2. k-space & the real part of back-transform k-space |  |cyan
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
 dmtr_38.pl | [Linear combination fitting](https://bruceravel.github.io/demeter/documents/DPG/xanes/lcf.html) | cyanobacteria.prj | 
+
+## Atoms
+
+Script     | Example                   | File         | File used
+-------    | -------------             |------------- | -----  
 dmtr_39.pl | [Input crystal data (inp)](https://bruceravel.github.io/demeter/documents/DPG/atoms.html#input-crystal-data)|ybco.inp|ybco-atoms.inp
 dmtr_40.pl | [Input crystal data (cif2)](https://bruceravel.github.io/demeter/documents/DPG/atoms.html#input-crystal-data)|AuCl.cif|
+dmtr_41.pl | [Manually inputing crystal data](https://bruceravel.github.io/demeter/documents/DPG/atoms.html#manually-inputing-crystal-data)||
+dmtr_41.pl | [Output targets](https://bruceravel.github.io/demeter/documents/DPG/atoms.html#output)||
 
 ## Notes and Issues
 
