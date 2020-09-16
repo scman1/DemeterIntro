@@ -6,7 +6,7 @@ The following tables are provided to link the scripts and the corresponding
 sections of the [DPG](https://bruceravel.github.io/demeter/documents/DPG/index.html)
 that was used to create them.
 
-[μ(E) data files](https://bruceravel.github.io/demeter/documents/DPG/data/mue.html) 
+[μ(E) data files.](https://bruceravel.github.io/demeter/documents/DPG/data/mue.html) 
 The basic form of data import is from a column data file with the first and 
 second columns including energy and μ(E). In that case, the data has already 
 been processed from its raw form and saved in this immediately useful form.
@@ -18,7 +18,7 @@ dmtr_02.pl | 2.1. μ(E) data files      | fe.060.dat |
 dmtr_03.pl | 2.1. μ(E) data files      | fe.060.dat |
 dmtr_04.pl | 2.1.1. Setting attributes | fe.060.dat |
 
-[χ(k) data files](https://bruceravel.github.io/demeter/documents/DPG/data/chi.html)
+[χ(k) data files.](https://bruceravel.github.io/demeter/documents/DPG/data/chi.html)
 χ(k) data is data that have already been processed to have the background 
 removed and to be properly normalized.  This is allowed, but is strongly 
 discouraged. Many features of DEMETER that are nominally related to the χ(k)
@@ -30,7 +30,7 @@ Script     | Example                   | File         | File used
 dmtr_05.pl | 2.2. χ(k) data files | cu10k.chi |
 
 
-[Column data files](https://bruceravel.github.io/demeter/documents/DPG/data/columns.html)
+[Column data files.](https://bruceravel.github.io/demeter/documents/DPG/data/columns.html)
 DEMETER assumes that your data are in columns when importing raw data from a 
 beamline. DEMETER also assumes that one of the columns represents energy, and 
 that two or more of the remaining columns represent signals on the various 
@@ -42,7 +42,7 @@ Script     | Example                   | File         | File used
 dmtr_06.pl | 2.3.1. Transmission data | fe.060.dat |
 
 
-[Athena project files](https://bruceravel.github.io/demeter/documents/DPG/data/athena.html)
+[Athena project files.](https://bruceravel.github.io/demeter/documents/DPG/data/athena.html)
 The most convenient method for importing data into a DEMETER program is to 
 import directly from an ATHENA project file. Presumably, you have already used 
 ATHENA to process your μ(E) data into an analysis-ready form. When data are 
@@ -57,7 +57,7 @@ dmtr_09.pl | 2.4.1. Creating Data objects|iron_data.prj| Fe_standards.prj
 dmtr_10.pl | 2.4.2. Obtaining other information from project files |iron_data.prj| Fe_standards.prj
 
 
-[Multichannel data files](https://bruceravel.github.io/demeter/documents/DPG/data/mc.html)
+[Multichannel data files.](https://bruceravel.github.io/demeter/documents/DPG/data/mc.html)
 Multi-channel data objects (Data::MultiChannel) are created to avoid repeatedly
 creating temporary arrays when data files contain multiple columns of data that 
 can be independently processed as μ(E) data.
@@ -67,7 +67,7 @@ Script     | Example                   | File         | File used
 dmtr_11.pl | 2.5.2. Importing data and reference|fe2o3.000|Fe_pyrite.000
 dmtr_12.pl | 2.5.3. Multicolumn transmission data|None|Fe_pyrite.000
 
-[2.6. Special data types](https://bruceravel.github.io/demeter/documents/DPG/data/special.html)
+[2.6. Special data types.](https://bruceravel.github.io/demeter/documents/DPG/data/special.html)
 Beamline data wich cannot be read directly can be imported into DEMETER using 
 filetype plugins. 
 
@@ -75,7 +75,7 @@ Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
 dmtr_13.pl | 2.6.1. Filetype plugins         | file_from_x15b.001 | s_x15b.dat
 
-[Plotting and basic processing](https://bruceravel.github.io/demeter/documents/DPG/data/plot.html)
+[Plotting and basic processing.](https://bruceravel.github.io/demeter/documents/DPG/data/plot.html)
 DEMETER allows the visualisation of data in the form of plots. These are grouped
 in four spaces: energy, k, R and back-transform k.
 
@@ -85,13 +85,30 @@ dmtr_14.pl | 2.8.1 Types of plots            | None               | fe.060.xmu
 dmtr_15.pl | 2.8.2 Plotting and overplotting | cu10k.chi      |  
 dmtr_16.pl | 2.8.3. The singlefile plotting backend | iron_data.prj      | Fe_standards.prj 
 
+[Aligning Data.](https://bruceravel.github.io/demeter/documents/DPG/mue/align.html)
+DEMETER uses a simple alignment algorithm:
+ - Chose a Data object is chosen as the alignment standard, The standard is one 
+   that doesn't move 
+ - Align other data to the standard by applying an E0 shift. 
+ - Compute The derivative spectrum for both the standard and the data. An E0 
+   shift and an overall amplitude are the variable parameters used to fit the 
+   data to the standard. 
+ - Discard amplitude value, and set the fitted E0 shift the bkg_eshift attribute 
+   of the aligned data.
+
+This algorithm work quite well for good quality data. Although, even for very 
+good data, if it starts of many volts out of alignment, the fit is likely to 
+find a false minimum. If data start very far out of alignment, you will likely 
+need to set the bkg_eshift attribute by hadn to something close before calling 
+the align method.
+
 
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
 dmtr_17.pl | 3.1. Aligning Data   | U_DNA.prj    | Fe_standards.prj 
 dmtr_18.pl | 3.1. Aligning Data   | U_DNA.prj    | Fe_standards.prj 
 
-
+[Merging data.](https://bruceravel.github.io/demeter/documents/DPG/mue/merge.html)
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
 dmtr_19.pl | 3.2.1. Plot merged data with standard deviation   | U_DNA.prj|cyanobacteria.prj 
