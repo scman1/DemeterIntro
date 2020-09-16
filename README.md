@@ -139,7 +139,7 @@ displayed by DEMETER. The po method is a method of the base class inherited by
 all DEMETER objects and makes the Plot object readily accessible at all times in 
 your program.
 
-[Plotting in energy.](https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html#plotting-in-energy}
+[Plotting in energy.](https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html#plotting-in-energy)
 
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
