@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 use Demeter; #qw(:ui=screen :plotwith=gnuplot);
-#use Demeter::Data::Prj
+
+# Example derived from code published at:
+#   https://bruceravel.github.io/demeter/documents/DPG/xanes/lcf.html
 
 my $prj = Demeter::Data::Prj -> new(file=>'data/cyanobacteria.prj');
 my $lcf = Demeter::LCF -> new(space=>'nor', plot_difference=>1, plot_components=>1);
