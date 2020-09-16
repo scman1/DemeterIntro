@@ -96,12 +96,10 @@ DEMETER uses a simple alignment algorithm:
  - Discard amplitude value, and set the fitted E0 shift the bkg_eshift attribute 
    of the aligned data.
 
-This algorithm work quite well for good quality data. Although, even for very 
-good data, if it starts of many volts out of alignment, the fit is likely to 
-find a false minimum. If data start very far out of alignment, you will likely 
-need to set the bkg_eshift attribute by hadn to something close before calling 
-the align method.
-
+The algorithm works well for good quality data. Although, even for very good 
+data. However, if data starts many volts out of alignment, the fit is likely to 
+find a false minimum. In these cases, the bkg_eshift attribute needs to be sety 
+by hand to something close, before calling the align method.
 
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
@@ -109,19 +107,39 @@ dmtr_17.pl | 3.1. Aligning Data   | U_DNA.prj    | Fe_standards.prj
 dmtr_18.pl | 3.1. Aligning Data   | U_DNA.prj    | Fe_standards.prj 
 
 [Merging data.](https://bruceravel.github.io/demeter/documents/DPG/mue/merge.html)
+Merging data is one of the essential data processing steps. 
+
+
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
 dmtr_19.pl | 3.2.1. Plot merged data with standard deviation   | U_DNA.prj|cyanobacteria.prj 
 dmtr_20.pl | 3.2.1. Plot merged data with variance  | U_DNA.prj|cyanobacteria.prj 
 
+[Deglitching data.](https://bruceravel.github.io/demeter/documents/DPG/mue/deglitch.html)
+"Deglitching" is the process of removing spurious points from data. This is an 
+arbitrary procedure as There is no obvious definition of what consititutes a 
+spurious data point.
 
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
 dmtr_21.pl | 3.3. Deglitching data | uhup.003 |
 
+[Truncating data.](https://bruceravel.github.io/demeter/documents/DPG/mue/truncate.html)
+Truncating is the process of removing data from one end or the other of a data 
+set. The Truncate method takes two arguments: (1) either of the words 'before'
+or 'after', to indicate whether data is to be removed from the front or back of
+the data; (2) the energy value before/after which all data points are removed.
+
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
 dmtr_22.pl | 3.4. Truncating data | fe.060 |
+
+The Plot object is used to control the details of how plots are made and 
+displayed by DEMETER. The po method is a method of the base class inherited by 
+all DEMETER objects and makes the Plot object readily accessible at all times in 
+your program.
+
+[Plotting in energy.](https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html#plotting-in-energy}
 
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
@@ -132,12 +150,13 @@ dmtr_26.pl | 4.4.1.4. Derivative of mu | fe.060 |
 dmtr_27.pl | 4.4.1.5. Data, I0 channel, & signal channel | fe.060 |
 dmtr_28.pl | 4.4.1.6. Data at two different edges with E0 subtracted | fe.060.xmu, cu010k.dat |
 
+[4.4.2. Plotting in k.] (https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html#plotting-in-k)
+
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
 dmtr_29.pl | 4.4.2.1. Plotting in k-space | cyanobacteria.prj  |
 dmtr_30.pl | 4.4.2.2. Plotting in chi(k) in energy | fe.060  |
 dmtr_31.pl | 4.4.2.3. k-space with all three k-weights | cyanobacteria.prj  |
-
 
 
 ## Notes and Issues
