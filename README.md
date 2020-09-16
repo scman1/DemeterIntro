@@ -143,20 +143,29 @@ your program.
 
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
-dmtr_23.pl | 4.4.1.1. Data, background, pre-edge, & post-edge | fe.060 |
-dmtr_24.pl | 4.4.1.2. Normalized data & background | fe.060 |
-dmtr_25.pl | 4.4.1.3. Flattened data & background | fe.060 |
-dmtr_26.pl | 4.4.1.4. Derivative of mu | fe.060 |
-dmtr_27.pl | 4.4.1.5. Data, I0 channel, & signal channel | fe.060 |
-dmtr_28.pl | 4.4.1.6. Data at two different edges with E0 subtracted | fe.060.xmu, cu010k.dat |
+dmtr_23.pl | 4.4.1.1. Data, background, pre-edge, & post-edge || fe.060 
+dmtr_24.pl | 4.4.1.2. Normalized data & background | |fe.060 
+dmtr_25.pl | 4.4.1.3. Flattened data & background | |fe.060 
+dmtr_26.pl | 4.4.1.4. Derivative of mu | |fe.060 
+dmtr_27.pl | 4.4.1.5. Data, I0 channel, & signal channel | |fe.060 
+dmtr_28.pl | 4.4.1.6. Data at two different edges with E0 subtracted || fe.060.xmu, cu010k.dat 
 
-[4.4.2. Plotting in k.](https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html#plotting-in-k)
+[Plotting in k.](https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html#plotting-in-k)
 
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
-dmtr_29.pl | 4.4.2.1. Plotting in k-space | cyanobacteria.prj  |
-dmtr_30.pl | 4.4.2.2. Plotting in chi(k) in energy | fe.060  |
-dmtr_31.pl | 4.4.2.3. k-space with all three k-weights | cyanobacteria.prj  |
+dmtr_29.pl | 4.4.2.1. Plotting in k-space || cyanobacteria.prj  
+dmtr_30.pl | 4.4.2.2. Plotting in chi(k) in energy || fe.060  
+dmtr_31.pl | 4.4.2.3. k-space with all three k-weights || cyanobacteria.prj  
+
+[Plotting in R.](https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html#plotting-in-r)
+
+Script     | Example                   | File         | File used
+-------    | -------------             |------------- | -----  
+dmtr_32.pl | 4.4.3.1. Magnitude in R-space & R-space window | | fe.060   
+dmtr_33.pl | 4.4.3.2. Data in R-space as envelope, real part, & imaginary part |  |fe.060   
+dmtr_34.pl | 4.4.3.3. R-space with all three k-weights |     | cyanobacteria.prj
+dmtr_35.pl | 4.4.3.4. Magnitude and real part in R space |    | cyanobacteria.prj
 
 
 ## Notes and Issues
