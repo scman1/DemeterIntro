@@ -193,8 +193,15 @@ dmtr_42.pl | [Output targets](https://bruceravel.github.io/demeter/documents/DPG
 
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
-dmtr_42.pl | [Starting from a conventional feff.inp file](https://bruceravel.github.io/demeter/documents/DPG/feff/input.html#starting-from-a-conventional-feff-inp-file)|feff.inp|
-dmtr_42.pl | [Starting from an atoms object](https://bruceravel.github.io/demeter/documents/DPG/feff/input.html#starting-from-an-atoms-object)|feff.inp|
+dmtr_43.pl | [Starting from a conventional feff.inp file](https://bruceravel.github.io/demeter/documents/DPG/feff/input.html#starting-from-a-conventional-feff-inp-file)|feff.inp|
+dmtr_44.pl | [Starting from an atoms object](https://bruceravel.github.io/demeter/documents/DPG/feff/input.html#starting-from-an-atoms-object)|atoms.inp|
+dmtr_45.pl | [Computing potentials](https://bruceravel.github.io/demeter/documents/DPG/feff/potph.html)|feff.inp|
+dmtr_46.pl | [Path finder](https://bruceravel.github.io/demeter/documents/DPG/feff/pathfinder.html)|feff.inp|
+dmtr_47.pl | [Path finder](https://bruceravel.github.io/demeter/documents/DPG/feff/pathfinder.html)|feff.inp|
+dmtr_48.pl | [Path interpretation](https://bruceravel.github.io/demeter/documents/DPG/feff/intrp.html)|feff.inp|
+dmtr_49.pl | [Path interpretation](https://bruceravel.github.io/demeter/documents/DPG/feff/intrp.html)|feff.yaml|
+
+
 ## Notes and Issues
 
 This project uses Demeter 0.9.25 with Strawberry Perl(32). The latest 64bit version and earlier 64bit versions throw a compilation error when adding a dll. This is latest version which works with windows 10 and the command line.
@@ -208,6 +215,6 @@ Processing sections 3.5 to 3.10 are missing (marked as todo)
 | -------------                    |-------------                               | -----     |
 | Cannot run Demeter 0.9.26 (64)   | Perl fails loading IFFEFIT dll             | 20200910  |
 | Cannot run last plotting example (2.8.3) | Issues with Term::Twiddle and Time::HiRes  | 20200914  |
-
+| Output of example is binary not serialised text (7.3) | -  | 20200916  |
 
 
