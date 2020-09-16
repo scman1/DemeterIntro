@@ -150,7 +150,7 @@ dmtr_26.pl | 4.4.1.4. Derivative of mu | fe.060 |
 dmtr_27.pl | 4.4.1.5. Data, I0 channel, & signal channel | fe.060 |
 dmtr_28.pl | 4.4.1.6. Data at two different edges with E0 subtracted | fe.060.xmu, cu010k.dat |
 
-[4.4.2. Plotting in k.] (https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html#plotting-in-k)
+[4.4.2. Plotting in k.](https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html#plotting-in-k)
 
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
