@@ -187,8 +187,14 @@ Script     | Example                   | File         | File used
 dmtr_39.pl | [Input crystal data (inp)](https://bruceravel.github.io/demeter/documents/DPG/atoms.html#input-crystal-data)|ybco.inp|ybco-atoms.inp
 dmtr_40.pl | [Input crystal data (cif2)](https://bruceravel.github.io/demeter/documents/DPG/atoms.html#input-crystal-data)|AuCl.cif|
 dmtr_41.pl | [Manually inputing crystal data](https://bruceravel.github.io/demeter/documents/DPG/atoms.html#manually-inputing-crystal-data)||
-dmtr_41.pl | [Output targets](https://bruceravel.github.io/demeter/documents/DPG/atoms.html#output)||
+dmtr_42.pl | [Output targets](https://bruceravel.github.io/demeter/documents/DPG/atoms.html#output)||
 
+## Feff
+
+Script     | Example                   | File         | File used
+-------    | -------------             |------------- | -----  
+dmtr_42.pl | [Starting from a conventional feff.inp file](https://bruceravel.github.io/demeter/documents/DPG/feff/input.html#starting-from-a-conventional-feff-inp-file)|feff.inp|
+dmtr_42.pl | [Starting from an atoms object](https://bruceravel.github.io/demeter/documents/DPG/feff/input.html#starting-from-an-atoms-object)|feff.inp|
 ## Notes and Issues
 
 This project uses Demeter 0.9.25 with Strawberry Perl(32). The latest 64bit version and earlier 64bit versions throw a compilation error when adding a dll. This is latest version which works with windows 10 and the command line.
