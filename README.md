@@ -167,6 +167,12 @@ dmtr_33.pl | 4.4.3.2. Data in R-space as envelope, real part, & imaginary part |
 dmtr_34.pl | 4.4.3.3. R-space with all three k-weights |     | cyanobacteria.prj
 dmtr_35.pl | 4.4.3.4. Magnitude and real part in R space |    | cyanobacteria.prj
 
+[Plotting in q.](https://bruceravel.github.io/demeter/documents/DPG/highlevel/plot.html#plotting-in-r)
+
+Script     | Example                   | File         | File used
+-------    | -------------             |------------- | -----  
+dmtr_36.pl | 4.4.4.1. Plotting in back-transform k-space | | cyanobacteria.prj   
+dmtr_37.pl | 4.4.4.2. k-space & the real part of back-transform k-space |  |cyanobacteria.prj   
 
 ## Notes and Issues
 
