@@ -201,6 +201,14 @@ dmtr_47.pl | [Path finder](https://bruceravel.github.io/demeter/documents/DPG/fe
 dmtr_48.pl | [Path interpretation](https://bruceravel.github.io/demeter/documents/DPG/feff/intrp.html)|feff.inp|
 dmtr_49.pl | [Path interpretation](https://bruceravel.github.io/demeter/documents/DPG/feff/intrp.html)|feff.yaml|
 
+## Scattering paths
+
+Script     | Example                   | File         | File used
+-------    | -------------             |------------- | -----  
+dmtr_50.pl | [Calculating individual scattering path](https://bruceravel.github.io/demeter/documents/DPG/paths/paths.html#calculating-individual-scattering-paths)|feff.inp|
+dmtr_51.pl | [Writing feffNNNN.dat files](https://bruceravel.github.io/demeter/documents/DPG/paths/paths.html#writing-feffnnnn-dat-files)|feff.yaml|
+dmtr_52.pl | [Examining the degenerate paths](https://bruceravel.github.io/demeter/documents/DPG/paths/paths.html#examining-the-degenerate-paths)|feff.yaml|
+
 
 ## Notes and Issues
 
