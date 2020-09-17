@@ -200,6 +200,7 @@ dmtr_46.pl | [Path finder](https://bruceravel.github.io/demeter/documents/DPG/fe
 dmtr_47.pl | [Path finder](https://bruceravel.github.io/demeter/documents/DPG/feff/pathfinder.html)|feff.inp|
 dmtr_48.pl | [Path interpretation](https://bruceravel.github.io/demeter/documents/DPG/feff/intrp.html)|feff.inp|
 dmtr_49.pl | [Path interpretation](https://bruceravel.github.io/demeter/documents/DPG/feff/intrp.html)|feff.yaml|
+dmtr_50.pl | [Plotting individual paths](https://bruceravel.github.io/demeter/documents/DPG/paths/plot.html)|feff.yaml, athena.prj|feff.yaml, HgDNA.prj
 
 ## Scattering paths
 
