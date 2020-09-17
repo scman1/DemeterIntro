@@ -208,6 +208,7 @@ Script     | Example                   | File         | File used
 dmtr_50.pl | [Calculating individual scattering path](https://bruceravel.github.io/demeter/documents/DPG/paths/paths.html#calculating-individual-scattering-paths)|feff.inp|
 dmtr_51.pl | [Writing feffNNNN.dat files](https://bruceravel.github.io/demeter/documents/DPG/paths/paths.html#writing-feffnnnn-dat-files)|feff.yaml|
 dmtr_52.pl | [Examining the degenerate paths](https://bruceravel.github.io/demeter/documents/DPG/paths/paths.html#examining-the-degenerate-paths)|feff.yaml|
+dmtr_53.pl | [Semantic path descriptions](https://bruceravel.github.io/demeter/documents/DPG/paths/semantic.html#semantic-path-descriptions)|feff.yaml|
 
 
 ## Notes and Issues
