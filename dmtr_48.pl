@@ -7,6 +7,8 @@ use Demeter;
 # The hard part of using FEFF effectively is keeping track of all the paths. The
 # main tool DEMETER offers for this is the path interpretation.
 
+# intrp can run after the pathfinder method
+
 #!/usr/bin/perl
 
 my $feff = Demeter::Feff -> new(file => "data/feff.inp");
