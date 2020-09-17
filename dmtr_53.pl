@@ -7,6 +7,7 @@ use Demeter;
 # You can specify a path using a semnatic description of the path. For example,
 # you can find the single scattering path which between 2 and 3 Å from the
 # scatterer. 
+
 # The examples show how to find the first path matching the criteria and then
 # all paths matching it. 
 
