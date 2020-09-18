@@ -2,33 +2,10 @@
  use Demeter; #qw(:ui=screen);
  
  # Example derived from code published at:
- #   https://bruceravel.github.io/demeter/documents/DPG/fit/collection.html#multiple-data-set-fitting
+ #   https://bruceravel.github.io/demeter/documents/DPG/fit/after.html
  
- # This example a builds on the previous fitting EXAFS data example, extending 
- # the isotropic expansion and correlated Debye fitting model to a simultaneous
- # refinement of two data sets.
- 
- # The modifications to the previous example are:
- # - Two records are imported from the ATHENA project file and their parameters
- #   set appropriately (on lines 37-45).
- # - The temp GDS object is not defined in the @gds group (on lines 55-61). It 
- #   is instead explicitly set to the correct value on lines 73 and 80.
- # - Both Data objects are supplied to the Fit object (on line 86). This is the 
- #   fundamental difference between a single and multiple data set fit – the 
- #   number of items in the Fit object's data attribute.
- # - A set of Path objects is set up and associated with the Data objects on 
- #   lines 65-82). Path objects are set up for the 10K data as in the previous
- #   example on lines 67-74. Each Path object is cloned on line 77,
- #   returning a new Path object with the same attributes that added to the
- #   @paths list.do the counting correctly. An then the parameters needed the
- #   150K data set are set to their new values on lines 76-81. 
- 
- # Note that the sp atrtibute is not changed for the cloned paths. This is 
- # central to DEMETER's efficient use of FEFF. The same ScatteringPath object
- # is used for the Path object associated with the 10 K Data object and for the
- # Path object associated with the 150 K Data object. This is conceptually
- # equivalent to using the same feffNNNN.dat file in two different path 
- # paragraphs in a FEFFIT input file.
+ # This example a builds on the previous fitting EXAFS data example to show what
+ # happens after the fit.
  
  ## import an Athena project file with copper metal in it
  my $prj = Demeter::Data::Prj->new(file=>'data/cu.prj');
@@ -47,7 +24,7 @@
  ## run a Feff calculation on copper metal
  my $atoms = Demeter::Atoms -> new(file => 'data/atoms.inp');
  my $feff = Demeter::Feff -> new(atoms => $atoms);
- $feff -> set(workspace => "data/cu_multi/", screen => 0,);
+ $feff -> set(workspace => "data/cu_afterfit/", screen => 0,);
  $feff -> potph -> pathfinder; # could have used '$feff->run' instead
  my @list_of_paths = $feff-> list_of_paths;
 
@@ -98,4 +75,18 @@
  $_->plot('rmr') foreach @data;
  sleep 10;
  $data[0]->pause;
+ 
+  ## write a log file
+ my ($header, $footer) = ('', '');
+ $fit -> logfile("data/cu_afterfit/cufit.log", $header, $footer);
+
+ $fit -> freeze(file=>"data/cu_afterfit/cu_temperature.dpj");
+
+ $data[0]->save("fit", "data/cu_afterfit/cu_10K.fit");
+ $data[1]->save("fit", "data/cu_afterfit/cu_150K.fit");
+ 
+ # The last code line was commented because it throws an error:
+ #  Can't locate object method "interview" via package "Demeter::Fit" at
+ #  dmtr_62.pl line 89, <F> line 14.
+ # $fit -> interview;
  

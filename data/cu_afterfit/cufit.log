@@ -1,0 +1,119 @@
+
+ Name            : fit to 10 K copper data, 150 K copper data    (ujoct)
+ Description     : fit to 10 K copper data, 150 K copper data
+ Figure of merit : 0
+ Time of fit     : 2020-09-18T15:50:11
+ Environment     : Demeter 0.9.25 with perl 5.018002 and using Ifeffit 1.2.12 on Windows 8
+ Interface       : Demeter-based perl script
+ Prepared by     : 
+ Contact         :
+
+
+=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+
+
+Independent points          : 37.2128906
+Number of variables         : 5
+Chi-square                  : 57508.8625481
+Reduced chi-square          : 1785.2748211
+R-factor                    : 0.1348498
+Number of data sets         : 2
+
+
+Happiness = 60.00/100             color = #FD7E6F
+   An R-factor of 0.13485 gives a penalty of 40.00000.
+***** Note: happiness is a semantic parameter and should *****
+*****    NEVER be reported in a publication -- NEVER!    *****
+
+guess parameters:
+  alpha10            =  -0.00010235    # +/-   0.00360364     [0]
+  alpha150           =   0.00006089    # +/-   0.00379062     [0]
+  amp                =   0.86988479    # +/-   0.11571188     [1]
+  enot               =   6.67784174    # +/-   1.74469951     [0]
+  theta              = 438.26746237    # +/- 101.98177207     [500]
+
+set parameters:
+  sigmm              =   0.00052000
+
+Correlations between variables:
+               theta & amp                --> -0.8503
+                enot & alpha150           -->  0.7924
+                enot & alpha10            -->  0.7910
+            alpha150 & alpha10            -->  0.6329
+All other correlations below 0.4
+
+===== Data set >> 10 K copper data << ====================================
+
+: Athena project        = data/cu.prj, 1
+: name                  = 10 K copper data
+: k-range               = 3 - 14
+: dk                    = 1
+: k-window              = hanning
+: k-weight              = 1,2,3
+: R-range               = 1.6 - 4.3
+: dR                    = 0.0
+: R-window              = hanning
+: fitting space         = r
+: background function   = no
+: phase correction      = no
+: background removal    = E0: 8977.58, Rbkg: 1.0, range: [0:25.0190006460572], clamps: 0/24, kw: 2
+: epsilon_k by k-weight = 1.857e-004
+: epsilon_r by k-weight = 4.858e-001
+: R-factor by k-weight  = 1 -> 0.14093,  2 -> 0.13750,  3 -> 0.13659
+
+  name             N       S02     sigma^2   e0     delr     Reff     R
+==============================================================================
+ Cu.1          12.000   0.870   0.00279   6.678 -0.00026  2.55270  2.55244
+ Cu.2           6.000   0.870   0.00314   6.678 -0.00037  3.61000  3.60963
+ Cu.1 Cu.1     48.000   0.870   0.00308   6.678 -0.00039  3.82900  3.82861
+ Cu.1 Cu.1     24.000   0.870   0.00323   6.678 -0.00045  4.35770  4.35725
+ Cu.1 Cu.2     48.000   0.870   0.00323   6.678 -0.00045  4.35770  4.35725
+
+  name             ei       third     fourth
+==============================================
+ Cu.1          0.00000   0.00000   0.00000
+ Cu.2          0.00000   0.00000   0.00000
+ Cu.1 Cu.1     0.00000   0.00000   0.00000
+ Cu.1 Cu.1     0.00000   0.00000   0.00000
+ Cu.1 Cu.2     0.00000   0.00000   0.00000
+
+===== Data set >> 150 K copper data << ====================================
+
+: Athena project        = data/cu.prj, 2
+: name                  = 150 K copper data
+: k-range               = 3 - 14
+: dk                    = 1
+: k-window              = hanning
+: k-weight              = 1,2,3
+: R-range               = 1.6 - 4.3
+: dR                    = 0.0
+: R-window              = hanning
+: fitting space         = r
+: background function   = no
+: phase correction      = no
+: background removal    = E0: 8977.58, Rbkg: 1.0, range: [0:25.0200024934288], clamps: 0/24, kw: 2
+: epsilon_k by k-weight = 1.696e-004
+: epsilon_r by k-weight = 4.437e-001
+: R-factor by k-weight  = 1 -> 0.13805,  2 -> 0.13077,  3 -> 0.12526
+
+  name             N       S02     sigma^2   e0     delr     Reff     R
+==============================================================================
+ Cu.1          12.000   0.870   0.00352   6.678  0.00016  2.55270  2.55286
+ Cu.2           6.000   0.870   0.00413   6.678  0.00022  3.61000  3.61022
+ Cu.1 Cu.1     48.000   0.870   0.00389   6.678  0.00023  3.82900  3.82923
+ Cu.1 Cu.1     24.000   0.870   0.00420   6.678  0.00026  4.35770  4.35797
+ Cu.1 Cu.2     48.000   0.870   0.00420   6.678  0.00026  4.35770  4.35797
+
+  name             ei       third     fourth
+==============================================
+ Cu.1          0.00000   0.00000   0.00000
+ Cu.2          0.00000   0.00000   0.00000
+ Cu.1 Cu.1     0.00000   0.00000   0.00000
+ Cu.1 Cu.1     0.00000   0.00000   0.00000
+ Cu.1 Cu.2     0.00000   0.00000   0.00000
+
+
+=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+
+
+
