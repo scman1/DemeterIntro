@@ -220,6 +220,13 @@ Script     | Example                   | File         | File used
 dmtr_58.pl | [Guess/Def/Set Parameters](https://bruceravel.github.io/demeter/documents/DPG/gds.html)||
 dmtr_59.pl | [Reporting on and annotating GDS parameters](https://bruceravel.github.io/demeter/documents/DPG/gds.html#reporting-on-and-annotating-gds-parameters)||
 
+## Fitting EXAFS data
+Script     | Example                   | File         | File used
+-------    | -------------             |------------- | -----  
+dmtr_60.pl | [Fitting EXAFS data](https://bruceravel.github.io/demeter/documents/DPG/fit/index.html)||
+
+
+
 ## Notes and Issues
 
 This project uses Demeter 0.9.25 with Strawberry Perl(32). The latest 64bit version and earlier 64bit versions throw a compilation error when adding a dll. This is latest version which works with windows 10 and the command line.

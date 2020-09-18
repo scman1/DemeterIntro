@@ -1,0 +1,25 @@
+ * 
+ * On-the-fly feff.inp file generated from a Demeter template
+ * with CONTROL values set to run just potph
+ *
+
+ TITLE title Copper example
+
+
+ HOLE      k  1
+
+ CONTROL   1      0     0     0
+ PRINT     1      0     0     0
+
+ RMAX      0
+
+
+
+
+ POTENTIALS
+0
+
+ ATOMS
+0
+
+END
