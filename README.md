@@ -232,6 +232,10 @@ Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
 dmtr_63.pl |[Using perl to structure a fit](https://bruceravel.github.io/demeter/documents/DPG/perl.html)|iron_data.prj|Fe_standards.prj
 
+## Using perl structures
+Script     | Example                   | File         | File used
+-------    | -------------             |------------- | -----  
+dmtr_64.pl |[Local guess parameters and the characteristic value](https://bruceravel.github.io/demeter/documents/DPG/perl.html)|cu_data.prj, cu_metal.inp|cu.prj, atoms.inp
 
 
 ## Notes and Issues
