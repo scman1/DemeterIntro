@@ -1,0 +1,41 @@
+ * 
+ * On-the-fly feff.inp file generated from a Demeter template
+ * with CONTROL values set to run just genfmt
+ *
+
+ TITLE TITLE dimethyltin dichloride
+
+
+ HOLE      1  1.0
+
+ CONTROL   0      0     1     0
+ PRINT     0      0     0     0
+
+ RMAX      6.0
+ CRITERIA  0   0
+
+
+
+
+ POTENTIALS
+    0  50  Sn
+    1  17  Cl
+    2   6  C
+    3   1  H
+
+
+ ATOMS
+     -0.02700     2.14600     0.01400   2
+      0.00200    -0.00400     0.00200   0
+      1.04200    -0.71600     1.74400   2
+     -2.21200    -0.82100     0.01900   1
+      1.10700    -0.76500    -1.94000   1
+      0.99600     2.52300     0.00600   3
+     -0.55400     2.50700    -0.86900   3
+     -0.53700     2.49700     0.91100   3
+      0.53200    -0.36500     2.64100   3
+      1.05700    -1.80600     1.73800   3
+      2.06500    -0.33900     1.73600   3
+
+
+END
