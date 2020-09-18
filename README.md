@@ -211,6 +211,8 @@ dmtr_52.pl | [Examining the degenerate paths](https://bruceravel.github.io/demet
 dmtr_53.pl | [Semantic path descriptions](https://bruceravel.github.io/demeter/documents/DPG/paths/semantic.html#semantic-path-descriptions)|feff.yaml|
 dmtr_54.pl | [Path parameters](https://bruceravel.github.io/demeter/documents/DPG/paths/pathparams.html)|feff.yaml|
 dmtr_55.pl | [Plotting individual paths](https://bruceravel.github.io/demeter/documents/DPG/paths/plot.html)|feff.yaml, athena.prj|feff.yaml, HgDNA.prj
+dmtr_56.pl | [Running Feff outside of Demeter](https://bruceravel.github.io/demeter/documents/DPG/paths/existing.html)|feff0001.dat|feff0001.dat
+dmtr_57.pl | [Running Feff outside of Demeter](https://bruceravel.github.io/demeter/documents/DPG/paths/existing.html)|feff0001.dat|feff0001.dat, HgDNA.prj
 
 ## Notes and Issues
 

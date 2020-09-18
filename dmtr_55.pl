@@ -9,7 +9,6 @@
 # you must create a Path object.
 
  my $data = Demeter::Data::Prj -> new(file=>"data/HgDNA.prj")-> record(2);
- #my $data = $prj -> records(1);
  my $feff = Demeter::Feff -> new(file => "data/feff.inp");
  $feff -> set(workspace => "data/feff", screen => 0,);
  $feff -> potph;
