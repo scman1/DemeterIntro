@@ -227,6 +227,11 @@ dmtr_60.pl | [Fitting EXAFS data](https://bruceravel.github.io/demeter/documents
 dmtr_61.pl | [Multiple dataset fitting](https://bruceravel.github.io/demeter/documents/DPG/fit/collection.html#multiple-data-set-fitting)|cu_data.prj, cu_metal.inp|cu.prj, atoms.inp
 dmtr_62.pl | [After a fit](https://bruceravel.github.io/demeter/documents/DPG/fit/after.html)|cu_data.prj, cu_metal.inp|cu.prj, atoms.inp
 
+## Using perl structures
+Script     | Example                   | File         | File used
+-------    | -------------             |------------- | -----  
+dmtr_63.pl |[Using perl to structure a fit](https://bruceravel.github.io/demeter/documents/DPG/perl.html)|iron_data.prj|Fe_standards.prj
+
 
 
 ## Notes and Issues

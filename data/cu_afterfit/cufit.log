@@ -1,8 +1,8 @@
 
- Name            : fit to 10 K copper data, 150 K copper data    (ujoct)
+ Name            : fit to 10 K copper data, 150 K copper data    (qgpjt)
  Description     : fit to 10 K copper data, 150 K copper data
  Figure of merit : 0
- Time of fit     : 2020-09-18T15:50:11
+ Time of fit     : 2020-09-18T15:56:35
  Environment     : Demeter 0.9.25 with perl 5.018002 and using Ifeffit 1.2.12 on Windows 8
  Interface       : Demeter-based perl script
  Prepared by     : 
@@ -91,7 +91,7 @@ All other correlations below 0.4
 : fitting space         = r
 : background function   = no
 : phase correction      = no
-: background removal    = E0: 8977.58, Rbkg: 1.0, range: [0:25.0200024934288], clamps: 0/24, kw: 2
+: background removal    = E0: 8977.58, Rbkg: 1.0, range: [0.0:25.0200024934288], clamps: 0/24, kw: 2
 : epsilon_k by k-weight = 1.696e-004
 : epsilon_r by k-weight = 4.437e-001
 : R-factor by k-weight  = 1 -> 0.13805,  2 -> 0.13077,  3 -> 0.12526
