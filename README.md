@@ -223,7 +223,7 @@ dmtr_59.pl | [Reporting on and annotating GDS parameters](https://bruceravel.git
 ## Fitting EXAFS data
 Script     | Example                   | File         | File used
 -------    | -------------             |------------- | -----  
-dmtr_60.pl | [Fitting EXAFS data](https://bruceravel.github.io/demeter/documents/DPG/fit/index.html)||
+dmtr_60.pl | [Fitting EXAFS data](https://bruceravel.github.io/demeter/documents/DPG/fit/index.html)|cu_data.prj, cu_metal.inp|cu.prj, atoms.inp
 
 
 
