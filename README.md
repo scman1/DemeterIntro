@@ -214,6 +214,12 @@ dmtr_55.pl | [Plotting individual paths](https://bruceravel.github.io/demeter/do
 dmtr_56.pl | [Running Feff outside of Demeter](https://bruceravel.github.io/demeter/documents/DPG/paths/existing.html)|feff0001.dat|feff0001.dat
 dmtr_57.pl | [Running Feff outside of Demeter](https://bruceravel.github.io/demeter/documents/DPG/paths/existing.html)|feff0001.dat|feff0001.dat, HgDNA.prj
 
+## Guess/Def/Set (GDS) Parameters
+Script     | Example                   | File         | File used
+-------    | -------------             |------------- | -----  
+dmtr_58.pl | [Guess/Def/Set Parameters](https://bruceravel.github.io/demeter/documents/DPG/gds.html)||
+dmtr_59.pl | [Reporting on and annotating GDS parameters](https://bruceravel.github.io/demeter/documents/DPG/gds.html#reporting-on-and-annotating-gds-parameters)||
+
 ## Notes and Issues
 
 This project uses Demeter 0.9.25 with Strawberry Perl(32). The latest 64bit version and earlier 64bit versions throw a compilation error when adding a dll. This is latest version which works with windows 10 and the command line.
