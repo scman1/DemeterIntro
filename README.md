@@ -251,11 +251,17 @@ To execute the scripts it is required to run command as an administrator. Otherw
 
 Processing sections 3.5 to 3.10 are missing (marked as todo)
 
-
 | Issue                            | Cause                                      | Checked on|
 | -------------                    |-------------                               | -----     |
 | Cannot run Demeter 0.9.26 (64)   | Perl fails loading IFFEFIT dll             | 20200910  |
 | Cannot run last plotting example (2.8.3) | Issues with Term::Twiddle and Time::HiRes  | 20200914  |
 | Output of example is binary not serialised text (7.3) | -  | 20200916  |
 
+# Acknowledgements and Funding
+For more details about the of the motivation for the development of the resources
+in this repository see:
+[UK Catalysis Hub Core Theme](https://ukcatalysishub.co.uk/core/).
 
+UK Catalysis Hub supports the development of this repository, funded by
+EPSRC grants:  EP/R026939/1, EP/R026815/1, EP/R026645/1, EP/R027129/1,
+and EP/M013219/1(biocatalysis))
