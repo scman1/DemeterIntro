@@ -16,7 +16,7 @@ Script     | Example                   | File         | File used
 dmtr_01.pl | 2. The basics of data processing |None| 
 dmtr_02.pl | 2.1. μ(E) data files      | fe.060.dat |
 dmtr_03.pl | 2.1. μ(E) data files      | fe.060.dat |
-dmtr_04.pl | 2.1.1. Setting attributes | fe.060.dat |
+[dmtr_04.pl](https://github.com/scman1/DemeterIntro/dmtr_04.pl) | 2.1.1. Setting attributes | fe.060.dat |
 
 [χ(k) data files.](https://bruceravel.github.io/demeter/documents/DPG/data/chi.html)
 χ(k) data is data that have already been processed to have the background 
